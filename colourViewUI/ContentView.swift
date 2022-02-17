@@ -1,17 +1,34 @@
-//
-//  ContentView.swift
-//  colourViewUI
-//
-//  Created by user213083 on 2/17/22.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       
+        
+        VStack {
+            Circle()
+                .frame(width: 350.0, height: 350.0)
+                .background(Color.black)
+            
+            Button("Button") {
+              changeColour()
+            }
+            .padding(.top, 200.0)
+            .frame(width: 200.0, height: 100.0)
+            
+
+        }
+        
+        
+       
     }
+}
+
+
+func changeColour() {
+    
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +36,13 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
+
+
+//            Image("Aston-Martin-Logo-1")
+//                .resizable()
+//                .frame(width: 300.0, height: 160.0)
+                
