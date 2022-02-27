@@ -32,7 +32,7 @@ struct ContentView: View {
                 Slider(value: $blueLight, in: 0.000...0.999)
                     .frame(minWidth:150, idealWidth:350, maxWidth: 355)
             }
-           
+            .padding(.horizontal, 20)
                 
             
             
