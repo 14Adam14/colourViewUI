@@ -18,7 +18,7 @@ struct ContentView: View {
             
             RoundedRectangle(cornerRadius: 25)
                 .foregroundColor(Color(red: redLight, green: greenLight, blue: blueLight))
-            
+                .padding(.horizontal, 10)
                 .frame(minWidth: 200, idealWidth: 355, maxWidth: 365, minHeight: 100, idealHeight: 240, maxHeight: 290)
             
             
@@ -41,6 +41,8 @@ struct ContentView: View {
        
     }
 }
+
+//
 
 func changeColour() {
     
